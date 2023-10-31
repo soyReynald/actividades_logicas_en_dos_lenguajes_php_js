@@ -1,0 +1,24 @@
+.container{
+	display: flex;
+	width: 75vw !important;
+	max-width: 75vw;
+	max-height: 100vh;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.basic_container {
+	display: inline;
+}
+
+.container_of_options {
+	display: inline-grid;
+}
+
+.container_of_options button {
+	margin-top: 1rem;
+}
